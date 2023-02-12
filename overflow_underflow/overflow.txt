@@ -1,0 +1,5 @@
+I added a new include statement on line 2 called limits.h. This header allowed me to set the max value of a fundamental type variable. 
+
+When I tried to complile the code for the first time I encountered a warning statement called 'overflow in implicit constant conversion'. I am not sure entirely why this happened or what it explicitly means, but I found resources online teach me about another statement to include in the complier called -Wall, -Wextra, and -pedantic. These statements are supposed to help me understand the warnings in my code but it is still hard to decipher.
+
+Otherwise the code executed as expected.
