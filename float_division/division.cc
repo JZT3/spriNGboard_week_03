@@ -10,13 +10,13 @@ int main ()
   //
 
   cout << setw(5) << "";
-  for (int32_t denom=1; denom<=10; ++denom) {
+  for (int32_t denom=-5; denom<=5; ++denom) {
     cout << setw(11) << showpos << denom;
   }
   cout << endl;
 
   cout << setfill('-') << setw(5) << "";
-  for (int32_t denom=1; denom<=10; ++denom) {
+  for (int32_t denom=-5; denom<=5; ++denom) {
     cout << setfill('-') << setw(11) << "";
   }
   cout << endl;
@@ -26,10 +26,10 @@ int main ()
   // Fill in the table rows.
   //
 
-  for (float numer=1; numer<=10; ++numer)
+  for (float numer=-5; numer<=5; ++numer)
   {
     cout << setw(3) << showpos << static_cast<int>(numer) << ": ";
-    for (float denom=1; denom<=10; ++denom)
+    for (float denom=-5; denom<=5; ++denom)
     {
       float result = numer/denom;
       cout << setw(11) << showpos << scientific << setprecision(3) << result;
