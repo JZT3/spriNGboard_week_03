@@ -1,0 +1,1 @@
+The outcome of the float addition was mildly surprsing despite knowing why it happens before hand. This edge case makes me think about where are the precision errorswithin the float type (on the number line) and what is the effective range of numbers that it covers?
